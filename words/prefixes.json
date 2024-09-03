@@ -1,0 +1,6 @@
+[
+    { "word": "hydro", "type": "prefix", "definition": "water or hydrogen" },
+    { "word": "bio", "type": "prefix", "definition": "life or living organism" },
+    { "word": "geo", "type": "prefix", "definition": "earth or ground" },
+    { "word": "thermo", "type": "prefix", "definition": "heat" }
+]
