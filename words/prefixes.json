@@ -1,6 +1,3 @@
-Sure! Here's the list of 50 medical prefixes in JSON format:
-
-```json
 [
   { "word": "a", "type": "prefix", "definition": "without, lack of" },
   { "word": "an", "type": "prefix", "definition": "without, lack of" },
@@ -58,4 +55,3 @@ Sure! Here's the list of 50 medical prefixes in JSON format:
   { "word": "pneumo", "type": "prefix", "definition": "lung, air" },
   { "word": "renal", "type": "prefix", "definition": "kidney" }
 ]
-```
