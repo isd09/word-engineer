@@ -1,0 +1,38 @@
+.item {
+    display: inline-block;
+    margin: 3px;
+    padding: 3px;
+    border: 1px solid #000;
+    cursor: pointer;
+    position: relative; /* Needed for absolute positioning of tooltip */
+}
+
+.item:hover::after {
+    content: attr(definition); /* Display the definition from the data attribute */
+    position: absolute;
+    right: 110%;
+    top: 50%;
+    transform: translate(0, -50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.drop-area {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px dashed #000;
+    text-align: center;
+    min-height: 100px;
+    max-width: 10%;
+    background-color: #f9f9f9;
+}
+
+.drop-container {
+    display: flex;
+    gap: 10px; /* Space between drop areas */
+    margin-top: 20px;
+}

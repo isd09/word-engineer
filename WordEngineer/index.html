@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Word Engineer</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="page_style.css">
+    </head>
+    <script src="js/drag-and-drop.js"></script>
+    <script src="js/setup.js"></script>
+    <header>
+        Hello, welcome to Word Engineer
+    </header>
+    <body>
+
+        <div class="container">
+            <div class="search-panel">
+                <input type="text" id="searchInput" placeholder="Search..." oninput="filterItems()">
+                <div id="item-container" ondragstart="drag(event)"></div>
+            </div>
+    
+            <div class="drop-area" ondrop="drop1(event, 'selected-item-1')" ondragover="allowDrop(event)" style="margin-left: 5%; position: absolute">
+                Prefix:
+                <div id="selected-item-1"></div>
+            </div>
+            <div class="drop-area" ondrop="drop1(event, 'selected-item-2')" ondragover="allowDrop(event)" style="margin-left: 10%; position: absolute">
+                Root:
+                <div id="selected-item-2"></div>
+            </div>
+            <div class="drop-area" ondrop="drop1(event, 'selected-item-3')" ondragover="allowDrop(event)" style="margin-left: 15%; position: absolute">
+                Suffix:
+                <div id="selected-item-3"></div>
+            </div>
+        </div>
+    </body>
+</html>
