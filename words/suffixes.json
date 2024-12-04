@@ -49,5 +49,6 @@
   { "word": "genic", "type": "suffix", "definition": "producing, causing" },
   { "word": "iatry", "type": "suffix", "definition": "medical treatment" },
   { "word": "lepsy", "type": "suffix", "definition": "seizure" },
-  { "word": "lysis", "type": "suffix", "definition": "destruction" }
+  { "word": "lysis", "type": "suffix", "definition": "destruction" },
+  { "word": "um", "type": "suffix", "definition": "tissue"}
 ]
